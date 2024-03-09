@@ -13,7 +13,13 @@ This project utilizes the `jdepend` library to analyze and visualize Java projec
 The closer to the line, the better balanced the class.
  - Classes that fall too far into the upper righthand corner enter into what architects call the zone of uselessness: code that is too abstract becomes difficult to use.
  - Conversely, code that falls into the lower lefthand corner enter the zone of pain: code with too much implementation and not enough abstraction becomes brittle and hard to maintain.
- 
+
+## Usage
+- Write code to export the project report to XML.
+- View Java packages using the UI provided by jdepend.
+- Install JDepend-UI from its GitHub repository.
+- Generate the final report using JDepend-UI.
+  
 ## Setup
 1. Download `jdepend-2.10.zip` from the official GitHub repository and extract it to a desired directory. (https://github.com/clarkware/jdepend/tree/master/dist)
 2. Create a new project and add a `libs` directory in the root of the project.
@@ -23,11 +29,6 @@ The closer to the line, the better balanced the class.
    implementation fileTree(dir: 'libs', include: ['*.jar'])
    ```
    
-## Usage
-- Write code to export the project report to XML.
-- View Java packages using the UI provided by jdepend.
-- Install JDepend-UI from its GitHub repository.
-- Generate the final report using JDepend-UI.
 ## Installation
 Install `JDepend-UI`, which requires `nodejs` to be installed. (https://github.com/ValentinaServile/jdepend-ui)
 ## Generating Reports
