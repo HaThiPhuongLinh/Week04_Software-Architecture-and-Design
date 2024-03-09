@@ -1,6 +1,6 @@
 # Visualizing distance from the main sequence and other Clean Architecture metrics in Java
 ## Introduction
-This project utilizes the `jdepend` library to analyze and visualize Java project metrics, focusing on the distance from the main sequence in Clean Architecture.
+> This project utilizes the `jdepend` library to analyze and visualize Java project metrics, focusing on the distance from the main sequence in Clean Architecture.
 ## Main of Sequence
 ![image](https://github.com/HaThiPhuongLinh/Week04_Software-Architecture-and-Design/assets/109422010/f7e29bfe-1ba6-45d1-990e-1202e9af146b)
 
